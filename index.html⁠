@@ -1,159 +1,178 @@
 <!DOCTYPE html>
 <html lang="en" class="scroll-smooth">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Quadrillion Web & Creative Design | Digital Software & Visual Branding</title>
-  <!-- Tailwind CSS CDN -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quadrillion Web & Creative Design | Official Portfolio</title>
   <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
 </head>
-<body class="bg-gray-950 text-gray-100 font-sans antialiased selection:bg-blue-600 selection:text-white">
+<body class="bg-slate-950 text-slate-100 font-sans antialiased selection:bg-indigo-500 selection:text-white">
 
-  <!-- Navigation -->
-  <header class="sticky top-0 z-50 bg-gray-950/80 backdrop-blur-md border-b border-gray-800/80">
+  <!-- Header / Navigation -->
+  <header class="sticky top-0 z-50 backdrop-blur-md bg-slate-950/85 border-b border-slate-800/80">
     <div class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
-      <a href="#" class="text-xl font-extrabold tracking-wider text-blue-500 hover:text-blue-400 transition">
-        QUADRILLION
+      <a href="#" class="text-xl font-extrabold tracking-tight text-white flex items-center gap-2">
+        <span class="bg-gradient-to-tr from-indigo-600 to-violet-500 text-white w-9 h-9 rounded-xl flex items-center justify-center font-black text-xl shadow-lg shadow-indigo-500/20">Q</span>
+        <span>Quadrillion<span class="text-indigo-400">.</span></span>
       </a>
-      <nav class="hidden md:flex space-x-8 text-sm font-medium text-gray-300">
-        <a href="#services" class="hover:text-blue-400 transition">Services</a>
-        <a href="#portfolio" class="hover:text-blue-400 transition">Portfolio</a>
-        <a href="#about" class="hover:text-blue-400 transition">About</a>
-        <a href="#contact" class="hover:text-blue-400 transition">Contact</a>
-      </nav>
-      <a href="#contact" class="bg-blue-600 hover:bg-blue-500 text-white text-xs md:text-sm font-semibold px-4 py-2 rounded-lg shadow-md transition">
-        Get Started
+      <a href="https://wa.me/2349031969278" target="_blank" class="inline-flex items-center gap-2 bg-emerald-600 hover:bg-emerald-500 text-white text-sm font-semibold px-4 py-2 rounded-xl transition-all duration-200 shadow-lg shadow-emerald-600/25">
+        <i class="fa-brands fa-whatsapp text-lg"></i>
+        <span>WhatsApp</span>
       </a>
     </div>
   </header>
 
   <!-- Hero Section -->
-  <section class="max-w-5xl mx-auto text-center py-24 px-6">
-    <span class="inline-block px-3 py-1 text-xs font-semibold tracking-wide text-blue-400 bg-blue-950/60 border border-blue-800/50 rounded-full mb-6">
-      Digital Software Engineering & Visual Identity
-    </span>
-    <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight text-white mb-6 leading-tight">
-      We Build Scalable Software & <br class="hidden md:inline"/> High-Impact Brand Experiences
+  <section class="max-w-6xl mx-auto px-6 pt-20 pb-16 text-center">
+    <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-indigo-500/10 border border-indigo-500/20 text-indigo-400 text-xs font-semibold mb-8">
+      <span class="w-2 h-2 rounded-full bg-indigo-400 animate-pulse"></span>
+      Full-Stack Web Development & Visual Branding Hub
+    </div>
+    
+    <h1 class="text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-tight text-white mb-6 leading-[1.15]">
+      Engineering scalable web architectures & <span class="text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 via-violet-400 to-indigo-300">high-impact creative design.</span>
     </h1>
-    <p class="text-base md:text-lg text-gray-400 mb-8 max-w-2xl mx-auto leading-relaxed">
-      From full-stack web applications and custom database architectures to striking corporate brand identity and graphic design.
+    
+    <p class="text-slate-400 text-base sm:text-lg md:text-xl max-w-3xl mx-auto mb-10 leading-relaxed">
+      At <strong>Quadrillion Web & Creative Design</strong>, we build high-performance web applications, modern brand identities, and custom digital systems engineered for real-world growth.
     </p>
-    <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
-      <a href="#portfolio" class="w-full sm:w-auto bg-blue-600 hover:bg-blue-500 text-white font-semibold px-6 py-3 rounded-lg shadow-lg transition">
-        View Work
+
+    <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
+      <a href="https://wa.me/2349031969278" target="_blank" class="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-indigo-600 hover:bg-indigo-500 text-white font-semibold px-7 py-3.5 rounded-xl transition-all duration-200 shadow-xl shadow-indigo-600/30">
+        <i class="fa-brands fa-whatsapp text-lg"></i>
+        <span>Start a Project</span>
       </a>
-      <a href="#services" class="w-full sm:w-auto bg-gray-900 hover:bg-gray-800 text-gray-200 border border-gray-800 font-semibold px-6 py-3 rounded-lg transition">
-        Our Services
+      <a href="mailto:contact@quadrillionwebandcreativedesign.com" class="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-slate-900 hover:bg-slate-800 border border-slate-800 text-slate-200 font-semibold px-7 py-3.5 rounded-xl transition-all duration-200">
+        <i class="fa-regular fa-envelope text-lg text-indigo-400"></i>
+        <span>Email Us</span>
       </a>
     </div>
   </section>
 
-  <!-- Services Section -->
-  <section id="services" class="py-20 border-t border-gray-900 bg-gray-950/50">
-    <div class="max-w-6xl mx-auto px-6">
-      <div class="text-center mb-16">
-        <h2 class="text-3xl font-bold text-white tracking-tight">Core Expertise</h2>
-        <p class="text-gray-400 mt-2 text-sm md:text-base">Tailored technical and creative solutions engineered for growth.</p>
-      </div>
-
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-        <!-- Service 1 -->
-        <div class="bg-gray-900/60 p-8 rounded-2xl border border-gray-800/80 hover:border-blue-500/50 transition">
-          <div class="w-12 h-12 bg-blue-900/40 text-blue-400 rounded-xl flex items-center justify-center font-bold text-xl mb-6">
-            &lt;/&gt;
+  <!-- Brand Story & Partnership Badge -->
+  <section class="max-w-6xl mx-auto px-6 py-12">
+    <div class="p-8 md:p-12 rounded-3xl bg-slate-900/50 border border-slate-800/80 relative overflow-hidden">
+      <div class="absolute -top-24 -right-24 w-72 h-72 bg-indigo-500/10 rounded-full blur-3xl pointer-events-none"></div>
+      
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+        <div class="lg:col-span-8">
+          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-md bg-amber-500/10 border border-amber-500/20 text-amber-400 text-xs font-bold uppercase tracking-wider mb-4">
+            <i class="fa-solid fa-handshake"></i> Strategic Partnership
           </div>
-          <h3 class="text-xl font-bold text-white mb-3">Full-Stack Development</h3>
-          <p class="text-gray-400 text-sm leading-relaxed">
-            Modern web applications built with React, Next.js, Node.js, and robust database architectures powered by Supabase and MongoDB.
+          <h2 class="text-2xl md:text-3xl font-bold text-white mb-4">Driven by Purpose & Technical Precision</h2>
+          <p class="text-slate-300 text-sm md:text-base leading-relaxed mb-4">
+            Founded with a vision to bridge technical software architecture and compelling visual storytelling, Quadrillion Web & Creative Design delivers complete digital transformations. From clean frontend interfaces and resilient backend infrastructure to distinctive corporate design assets, we craft digital products that stand out.
+          </p>
+          <p class="text-slate-400 text-sm md:text-base leading-relaxed">
+            We are proud official brand representatives in strategic partnership with <strong>Univelcity Coding Company</strong>, driving developer talent, tech excellence, and software engineering standards across the industry.
           </p>
         </div>
 
-        <!-- Service 2 -->
-        <div class="bg-gray-900/60 p-8 rounded-2xl border border-gray-800/80 hover:border-blue-500/50 transition">
-          <div class="w-12 h-12 bg-blue-900/40 text-blue-400 rounded-xl flex items-center justify-center font-bold text-xl mb-6">
-            🎨
-          </div>
-          <h3 class="text-xl font-bold text-white mb-3">Brand Identity & Design</h3>
-          <p class="text-gray-400 text-sm leading-relaxed">
-            Corporate logos, high-conversion visual marketing assets, promotional graphics, and cohesive apparel mockups.
-          </p>
-        </div>
-
-        <!-- Service 3 -->
-        <div class="bg-gray-900/60 p-8 rounded-2xl border border-gray-800/80 hover:border-blue-500/50 transition">
-          <div class="w-12 h-12 bg-blue-900/40 text-blue-400 rounded-xl flex items-center justify-center font-bold text-xl mb-6">
-            ⚡
-          </div>
-          <h3 class="text-xl font-bold text-white mb-3">Technical Direction</h3>
-          <p class="text-gray-400 text-sm leading-relaxed">
-            End-to-end management of digital campaigns, creative lock-in initiatives, and brand positioning strategies.
-          </p>
+        <div class="lg:col-span-4 flex flex-col justify-center items-start lg:items-end bg-slate-950/60 p-6 rounded-2xl border border-slate-800/60">
+          <span class="text-xs font-semibold text-slate-400 uppercase tracking-widest mb-2">Corporate Partner</span>
+          <span class="text-lg font-bold text-white mb-1">Univelcity Coding Company</span>
+          <span class="text-xs text-indigo-400 font-medium">Official Representative Status</span>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Portfolio Section -->
-  <section id="portfolio" class="py-20 border-t border-gray-900">
-    <div class="max-w-6xl mx-auto px-6">
-      <div class="text-center mb-16">
-        <h2 class="text-3xl font-bold text-white tracking-tight">Featured Work</h2>
-        <p class="text-gray-400 mt-2 text-sm md:text-base">A glimpse into recent engineering and design projects.</p>
+  <!-- Services Offered -->
+  <section id="services" class="max-w-6xl mx-auto px-6 py-16">
+    <div class="text-center mb-14">
+      <h2 class="text-2xl sm:text-3xl font-bold text-white mb-3">Our Core Services</h2>
+      <p class="text-slate-400 text-sm md:text-base">Comprehensive software engineering and brand management solutions.</p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      
+      <!-- Service 1 -->
+      <div class="p-8 rounded-2xl bg-slate-900/60 border border-slate-800/80 hover:border-indigo-500/40 transition-all duration-300 flex flex-col justify-between">
+        <div>
+          <div class="w-12 h-12 bg-indigo-500/10 rounded-xl flex items-center justify-center text-indigo-400 mb-6">
+            <i class="fa-solid fa-code text-xl"></i>
+          </div>
+          <h3 class="text-xl font-bold text-white mb-3">Full-Stack Web Engineering</h3>
+          <p class="text-slate-400 text-sm leading-relaxed mb-6">
+            Custom web applications and responsive landing pages built with React, Next.js, Node.js, Express, Tailwind CSS, and databases like MongoDB & Supabase.
+          </p>
+        </div>
+        <ul class="text-xs text-slate-300 space-y-2 border-t border-slate-800/80 pt-4">
+          <li class="flex items-center gap-2"><i class="fa-solid fa-check text-indigo-400"></i> Full-Stack Web Applications</li>
+          <li class="flex items-center gap-2"><i class="fa-solid fa-check text-indigo-400"></i> API Integrations & Database Architecture</li>
+          <li class="flex items-center gap-2"><i class="fa-solid fa-check text-indigo-400"></i> High-Speed Responsive Interfaces</li>
+        </ul>
       </div>
 
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-        <!-- Project 1 -->
-        <div class="bg-gray-900/40 rounded-2xl border border-gray-800 overflow-hidden group">
-          <div class="p-8">
-            <span class="text-xs font-semibold text-blue-400 uppercase tracking-widest">Web Application</span>
-            <h3 class="text-2xl font-bold text-white mt-2 mb-3">Fashion Fusion Web App</h3>
-            <p class="text-gray-400 text-sm leading-relaxed mb-6">
-              A full-stack digital web platform engineered for seamless product showcases, interactive design visualizers, and user engagement.
-            </p>
-            <div class="flex flex-wrap gap-2 text-xs font-mono text-gray-300">
-              <span class="bg-gray-800 px-3 py-1 rounded-md">React</span>
-              <span class="bg-gray-800 px-3 py-1 rounded-md">Next.js</span>
-              <span class="bg-gray-800 px-3 py-1 rounded-md">Node.js</span>
-              <span class="bg-gray-800 px-3 py-1 rounded-md">MongoDB</span>
-            </div>
+      <!-- Service 2 -->
+      <div class="p-8 rounded-2xl bg-slate-900/60 border border-slate-800/80 hover:border-indigo-500/40 transition-all duration-300 flex flex-col justify-between">
+        <div>
+          <div class="w-12 h-12 bg-indigo-500/10 rounded-xl flex items-center justify-center text-indigo-400 mb-6">
+            <i class="fa-solid fa-palette text-xl"></i>
           </div>
+          <h3 class="text-xl font-bold text-white mb-3">Brand Identity & Visual Design</h3>
+          <p class="text-slate-400 text-sm leading-relaxed mb-6">
+            Crafting memorable brand assets, corporate logo design, promotional flyers, visual guidelines, and UI/UX layouts tailored to your target audience.
+          </p>
         </div>
-
-        <!-- Project 2 -->
-        <div class="bg-gray-900/40 rounded-2xl border border-gray-800 overflow-hidden group">
-          <div class="p-8">
-            <span class="text-xs font-semibold text-blue-400 uppercase tracking-widest">Apparel & Visual Design</span>
-            <h3 class="text-2xl font-bold text-white mt-2 mb-3">QJGS Streetwear Identity</h3>
-            <p class="text-gray-400 text-sm leading-relaxed mb-6">
-              End-to-end visual identity and graphic design collection for premium streetwear apparel, including custom logo mockups and apparel concepts.
-            </p>
-            <div class="flex flex-wrap gap-2 text-xs font-mono text-gray-300">
-              <span class="bg-gray-800 px-3 py-1 rounded-md">Brand Strategy</span>
-              <span class="bg-gray-800 px-3 py-1 rounded-md">Apparel Design</span>
-              <span class="bg-gray-800 px-3 py-1 rounded-md">Visual Identity</span>
-            </div>
-          </div>
-        </div>
+        <ul class="text-xs text-slate-300 space-y-2 border-t border-slate-800/80 pt-4">
+          <li class="flex items-center gap-2"><i class="fa-solid fa-check text-indigo-400"></i> Corporate Logo & Brand Identity</li>
+          <li class="flex items-center gap-2"><i class="fa-solid fa-check text-indigo-400"></i> Promotional & Marketing Design</li>
+          <li class="flex items-center gap-2"><i class="fa-solid fa-check text-indigo-400"></i> UI/UX System Layouts</li>
+        </ul>
       </div>
+
+      <!-- Service 3 -->
+      <div class="p-8 rounded-2xl bg-slate-900/60 border border-slate-800/80 hover:border-indigo-500/40 transition-all duration-300 flex flex-col justify-between">
+        <div>
+          <div class="w-12 h-12 bg-indigo-500/10 rounded-xl flex items-center justify-center text-indigo-400 mb-6">
+            <i class="fa-solid fa-cloud-arrow-up text-xl"></i>
+          </div>
+          <h3 class="text-xl font-bold text-white mb-3">Deployment & Strategy</h3>
+          <p class="text-slate-400 text-sm leading-relaxed mb-6">
+            End-to-end web deployment, GitHub Pages / Vercel configurations, custom domain setup, and technical consultation for digital projects.
+          </p>
+        </div>
+        <ul class="text-xs text-slate-300 space-y-2 border-t border-slate-800/80 pt-4">
+          <li class="flex items-center gap-2"><i class="fa-solid fa-check text-indigo-400"></i> Domain & Hosting Configuration</li>
+          <li class="flex items-center gap-2"><i class="fa-solid fa-check text-indigo-400"></i> Continuous Deployment (CI/CD)</li>
+          <li class="flex items-center gap-2"><i class="fa-solid fa-check text-indigo-400"></i> Website Optimization & Maintenance</li>
+        </ul>
+      </div>
+
     </div>
   </section>
 
-  <!-- Contact / Call to Action -->
-  <section id="contact" class="py-20 border-t border-gray-900 bg-gray-950/50">
-    <div class="max-w-4xl mx-auto px-6 text-center">
-      <h2 class="text-3xl md:text-4xl font-extrabold text-white mb-4">Ready to build something exceptional?</h2>
-      <p class="text-gray-400 mb-8 max-w-xl mx-auto">
-        Whether you need a full-stack platform, backend API integration, or corporate brand identity, let's collaborate.
+  <!-- Contact & Call to Action -->
+  <section class="max-w-4xl mx-auto px-6 py-16 text-center">
+    <div class="bg-gradient-to-b from-indigo-950/40 to-slate-900/60 border border-indigo-500/20 p-8 md:p-12 rounded-3xl">
+      <h2 class="text-3xl font-bold text-white mb-4">Ready to Start Your Digital Project?</h2>
+      <p class="text-slate-300 text-sm md:text-base max-w-xl mx-auto mb-8">
+        Get in touch with us directly on WhatsApp or send an email to discuss your web application, design project, or technical consultation.
       </p>
-      <a href="mailto:contact@quadrillionwebdesign.com" class="inline-block bg-blue-600 hover:bg-blue-500 text-white font-semibold px-8 py-4 rounded-xl shadow-xl transition">
-        Start a Project
-      </a>
+
+      <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
+        <!-- Direct WhatsApp Link -->
+        <a href="https://wa.me/2349031969278" target="_blank" class="inline-flex items-center gap-2 bg-emerald-600 hover:bg-emerald-500 text-white font-semibold px-6 py-3 rounded-xl transition-all duration-200 shadow-lg shadow-emerald-600/30">
+          <i class="fa-brands fa-whatsapp text-xl"></i>
+          <span>Chat on WhatsApp</span>
+        </a>
+
+        <!-- Direct Email Link -->
+        <a href="mailto:contact@quadrillionwebandcreativedesign.com" class="inline-flex items-center gap-2 bg-slate-800 hover:bg-slate-700 text-white font-semibold px-6 py-3 rounded-xl border border-slate-700 transition-all duration-200">
+          <i class="fa-regular fa-envelope text-xl text-indigo-400"></i>
+          <span>contact@quadrillionwebandcreativedesign.com</span>
+        </a>
+      </div>
     </div>
   </section>
 
   <!-- Footer -->
-  <footer class="border-t border-gray-900 py-8 text-center text-xs text-gray-500">
-    <p>© 2026 Quadrillion Web & Creative Design Limited. All rights reserved.</p>
+  <footer class="border-t border-slate-900 bg-slate-950 py-10 mt-12">
+    <div class="max-w-6xl mx-auto px-6 text-center text-slate-500 text-sm">
+      <p>© Quadrillion Web & Creative Design. All rights reserved.</p>
+    </div>
   </footer>
 
 </body>
